@@ -104,7 +104,7 @@
     #contact .section-eyebrow { background: rgba(255,255,255,0.15); color: var(--white); }
     #contact .section-title { color: var(--white); }
     #contact .section-sub { color: rgba(255,255,255,0.75); max-width: 480px; margin: 0 auto 44px; }
-    .contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; max-width: 900px; margin: 0 auto 40px; }
+    .contact-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; max-width: 900px; margin: 0 auto 40px; }
     .contact-item { background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.18); border-radius: 12px; padding: 22px; }
     .contact-item .ci-icon { font-size: 1.5rem; margin-bottom: 10px; }
     .contact-item .ci-label { font-size: 0.75rem; color: rgba(255,255,255,0.65); margin-bottom: 5px; text-transform: uppercase; letter-spacing: 0.08em; }
@@ -123,6 +123,7 @@
       nav { position: relative; }
       .park-grid, .company-layout { grid-template-columns: 1fr; }
       .company-kpis { grid-template-columns: 1fr 1fr; }
+      .contact-grid { grid-template-columns: 1fr; }
     }
   </style>
 </head>
